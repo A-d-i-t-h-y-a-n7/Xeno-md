@@ -52,4 +52,8 @@
 22. _`AJOIN`_ - set true, Accept Group join request (Group Privacy).
 23. _`APPROVE`_ - set antifake(based on this approved), then reject or approve or do both 
      - APPROVE  = reject | approve | all
-24. _`TZ`_ - timezone
+24. _`TZ`_ - timezone 
+     - TZ = Asia/Kolkata
+25. _`PERSONAL_MESSAGE`_ = send greeting on first personal message
+     - PERSONAL_MESSAGE = This is a bot, my owner will message you back when online
+     - PERSONAL_MESSAGE = null
