@@ -1,3 +1,6 @@
+
+##### send a message when new person contacts you 
+
 For text Message : `setgreet Hello #uptime #quote` <br>
 For Other Messages like image, video, audio, sticker : `caption #uptime #quote url`
 
