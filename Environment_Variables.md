@@ -28,7 +28,7 @@
     - ANTIWORDS*MSG = \_antiword Detected &mention kicked*
 11. _`ANTIWORDS`_ - Not allowed words, Example
     - ANTIWORDS = word1,word2,word3
-12. _`SS_TOKEN`_ - Token for SS API. Example
+12. _`SS_TOKEN`_ - Token for SS API https://app.screenshotapi.net/dashboard. Example
     - SS_TOKEN = token_from_api
 13. _`REJECT_CALL`_ - auto reject call. Example
     - REJECT_CALL = true
