@@ -1,70 +1,104 @@
-### Copy Paste Key and Enter desired Values. SESSION_ID and DATABASE_URL Mandatory!!!
+### Configuration Settings - Please Copy and Paste the Key and Enter the Desired Values. 
 
-1. _`SESSION_ID`_ - You get after successful scan.
-    - SESSION_ID = your_session
-2. _`SUDO`_ - your primary number or other number to use bot. Example
-   - SUDO = 987654321,911234567890
-3. _`PREFIX`_ - Your prefix. Example
+1. **[SESSION_ID](#SESSION_ID)** - Obtain this after a successful scan.
+
+2. **[SUDO](#SUDO)** - Your primary number or another number to use with the bot. Example:
+   - SUDO = 987654321, 911234567890
+
+3. **[PREFIX](#PREFIX)** - Your preferred command prefix. Example:
    - PREFIX = !
    - PREFIX = bot
    - PREFIX = ^[.,!]
    - PREFIX = null
-4. _`VPS`_ - set it true if using local or any virtual system . Example
+
+4. **[VPS](#VPS)** - Set it to true if using a local or virtual system. Example:
    - VPS = true
    - VPS = false
-5. _`STICKER_PACKNAME`_ - sticker packname. Example
-   - STICKER_PACKNAME = Name,Author
+
+5. **[STICKER_PACKNAME](#STICKER_PACKNAME)** - Sticker pack name. Example:
+   - STICKER_PACKNAME = Name, Author
    - STICKER_PACKNAME = Name
-   - STICKER_PACKNAME = ,Author
+   - STICKER_PACKNAME = , Author
    - STICKER_PACKNAME = false
-6. _`WARN_LIMIT`_ - Number of allowed Warns. Example
+
+6. **[WARN_LIMIT](#WARN_LIMIT)** - Number of allowed warnings. Example:
    - WARN_LIMIT = 3
-7. _`DIS_BOT`_ - Block bot. Example
-   - DIS_BOT = 5375039464603@g.us,91987654321
-8. _`ANTILINK_MSG`_ - Msg send at antilink.
+
+7. **[DIS_BOT](#DIS_BOT)** - Block bots. Example:
+   - DIS_BOT = 5375039464603@g.us, 91987654321
+
+8. **[ANTILINK_MSG](#ANTILINK_MSG)** - Message sent when an antilink is detected.
    - ANTILINK_MSG = Antilink Detected &mention kicked
-9. _`ANTISPAM_MSG`_ - Msg send at antispam.
-   - ANTISPAM_MSG = antispam Detected &mention kicked
-10. _`ANTIWORDS_MSG`_ - Msg send at antiword.
-    - ANTIWORDS_MSG = antiword Detected &mention kicked
-11. _`ANTIWORDS`_ - Not allowed words, Example
-    - ANTIWORDS = word1,word2,word3
-12. _`SS_TOKEN`_ - Token for SS API https://app.screenshotapi.net/dashboard. Example
+
+9. **[ANTISPAM_MSG](#ANTISPAM_MSG)** - Message sent when antispam is detected.
+   - ANTISPAM_MSG = Antispam Detected &mention kicked
+
+10. **[ANTIWORDS_MSG](#ANTIWORDS_MSG)** - Message sent when antiword is detected.
+    - ANTIWORDS_MSG = Antiword Detected &mention kicked
+
+11. **[ANTIWORDS](#ANTIWORDS)** - List of disallowed words. Example:
+    - ANTIWORDS = word1, word2, word3
+
+12. **[SS_TOKEN](#SS_TOKEN)** - Token for SS API from [https://app.screenshotapi.net/dashboard](https://app.screenshotapi.net/dashboard). Example:
     - SS_TOKEN = token_from_api
-13. _`REJECT_CALL`_ - auto reject call. Example
+
+13. **[REJECT_CALL](#REJECT_CALL)** - Automatically reject calls. Example:
     - REJECT_CALL = true
     - REJECT_CALL = false
-14. _`AUTO_STATUS_VIEW`_ - Auto view status. Example
-    - AUTO_STATUS_VIEW = true
-    - AUTO_STATUS_VIEW = false
-15. _`SEND_READ`_ - Send blue tick. Example
+
+14. **[AUTO_STATUS_VIEW](#AUTO_STATUS_VIEW)** - Automatically view status. Example:
+    - AUTO_STATUS_VIEW = true (view all)
+    - AUTO_STATUS_VIEW = false (off)
+    - AUTO_STATUS_VIEW = no-dl (only view)
+    - AUTO_STATUS_VIEW = expect-view jid, jid,... (don't view given jid status)
+    - AUTO_STATUS_VIEW = only-view jid, jid,... (only view given jid status)
+
+15. **[SEND_READ](#SEND_READ)** - Send a blue tick. Example:
     - SEND_READ = true
     - SEND_READ = false
-16. _`BRAINSHOP`_ - lydia api key. Example from https://brainshop.ai/
-    - BRAINSHOP = 159501,6pq8dPiYt7PdqHz3
-17. _`RMBG_KEY`_ - remove.bg api key. Example
+
+16. **[BRAINSHOP](#BRAINSHOP)** - Lydia API key. Example from [https://brainshop.ai/](https://brainshop.ai/):
+    - BRAINSHOP = 159501, 6pq8dPiYt7PdqHz3
+
+17. **[RMBG_KEY](#RMBG_KEY)** - remove.bg API key. Example:
     - RMBG_KEY = key_from_api
-18. _`MAX_UPLOAD`_ - Max MB file bot uploads.
+
+18. **[MAX_UPLOAD](#MAX_UPLOAD)** - Maximum file size (in MB) that the bot can upload.
     - MAX_UPLOAD = 230
-19. _`DATABASE_URL`_ - Get it from [HERE](https://github.com/lyfe00011/whatsapp-bot-md/wiki/DATABASE_URL) or Don't add. depends platform
-20. _`PORT`_ - port for server.
-     - PORT = 3000
-21. _`FORCE_LOGOUT`_ - force logout from WhatsApp web, Should change back to false after logout
-     - FORCE_LOGOUT = true
-22. _`AJOIN`_ - Accept Group join request (Group Privacy).
-     - AJOIN = true
-     - AJOIN = false
-23. _`APPROVE`_ - set antifake(based on this approved), then reject or approve or do both 
-     - APPROVE = reject
-     - APPROVE = approve
-     - APPROVE = all
-24. _`TZ`_ - timezone 
-     - TZ = Asia/Kolkata
-25. _`PERSONAL_MESSAGE`_ = send greeting on first personal message
-     - PERSONAL_MESSAGE = This is a bot, my owner will message you back when online
-     - PERSONAL_MESSAGE = null
-26. _`ANTI_BOT`_ = remove bot from group
-     - ANTI_BOT = true 
-     - ANTI_BOT = false
-27. _`ANTI_BOT_MESSAGE`_ = send info message on remove
-     - ANTI_BOT_MESSAGE = &mention removed
+
+19. **[DATABASE_URL](#DATABASE_URL)** - Obtain it from [HERE](https://github.com/lyfe00011/whatsapp-bot-md/wiki/DATABASE_URL) or leave it empty, depending on the platform.
+
+20. **[PORT](#PORT)** - Port for the server.
+    - PORT = 3000
+
+21. **[FORCE_LOGOUT](#FORCE_LOGOUT)** - Force logout from WhatsApp web. Change back to false after logout.
+    - FORCE_LOGOUT = true
+
+22. **[AJOIN](#AJOIN)** - Accept group join requests (Group Privacy).
+    - AJOIN = true
+    - AJOIN = false
+
+23. **[APPROVE](#APPROVE)** - Set antifake (based on this, approve, reject, or do both).
+    - APPROVE = reject
+    - APPROVE = approve
+    - APPROVE = all
+
+24. **[TZ](#TZ)** - Timezone.
+    - TZ = Asia/Kolkata
+
+25. **[PERSONAL_MESSAGE](#PERSONAL_MESSAGE)** - Send a greeting on the first personal message.
+    - PERSONAL_MESSAGE = This is a bot; my owner will message you back when online
+    - PERSONAL_MESSAGE = null
+
+26. **[ANTI_BOT](#ANTI_BOT)** - Remove bots from the group.
+    - ANTI_BOT = true
+    - ANTI_BOT = false
+
+27. **[ANTI_BOT_MESSAGE](#ANTI_BOT_MESSAGE)** - Send an informational message upon removal.
+    - ANTI_BOT_MESSAGE = &mention removed
+
+28. **[ANTI_DELETE](#ANTI_DELETE)** - Send deleted Message
+    - ANTI_DELETE = off (off sending deleted message)
+    - ANTI_DELETE = p (send deleted message to your or first sudo chat)
+    - ANTI_DELETE = g (send deleted message to the chat where it deleted)
+    - ANTI_DELETE = jid (send deletd message to the jid)
