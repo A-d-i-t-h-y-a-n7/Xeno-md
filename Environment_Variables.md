@@ -1,5 +1,11 @@
 ### Configuration Settings - Please Copy and Paste the Key and Enter the Desired Values. 
 
+You can change it depending on platform settings or
+within bot using setvar command
+
+For Example setvar key = value
+
+
 1. **[SESSION_ID](#SESSION_ID)** - Obtain this after a successful scan.
 
 2. **[SUDO](#SUDO)** - Your primary number or another number to use with the bot. Example:
