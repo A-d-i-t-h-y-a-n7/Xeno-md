@@ -17,3 +17,5 @@
 <a href="https://github.com/lyfe00011/whatsapp-bot-md/wiki/vote"><img src="https://img.shields.io/badge/vote-orange?style=for-the-badge&logo=appveyor%22"/></a>
 
 <a href="https://github.com/lyfe00011/whatsapp-bot-md/wiki/antilink"><img src="https://img.shields.io/badge/antilink-darkgreen?style=for-the-badge&logo=appveyor%22"/></a>
+
+<a href="https://github.com/lyfe00011/whatsapp-bot-md/wiki/warn"><img src="https://img.shields.io/badge/warn-yellow?style=for-the-badge&logo=appveyor%22"/></a>
