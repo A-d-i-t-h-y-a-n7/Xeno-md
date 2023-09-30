@@ -1,26 +1,31 @@
-:warning: Button are not visible in latest whatsapp :warning:
-```
+## Welcome Message Format
+
+```markdown
 welcome Hi &mention, welcome to &name
 &desc
 &size/257 member joined
 ```
-```
-welcome Hi &mention, welcome to &name
-#button\Thanks# #header\&desc#
-```
-* &mention for mention
-* &desc for desc
-* &size for total current member count
-* &name for group name
-* &pp for new member pp
-* #button\your_button_text# for button 
-* #header\your_header_text# for header
-* #ubutton\url_button_text#
-* #url\url_button_url#
-* and u can use image_url or video_url anywhere in message for image or video in welcome
 
-* mention not works when url or call button in message
+options:
+```markdown
+&mention: Mention the user who has joined.
+&desc: Description of the welcome message (optional).
+&size: Total current member count.
+&name: Group name.
+&pp: New member's profile picture.
+```
+You can also include `image` URLs or `video` URLs anywhere in the message to display images or videos as part of the welcome message.
 
-```welcome delete``` //to delete (goodbye too)<br>
-```welcome off | on``` //to disable | enable (goodbye too)<br>
-welcome // to get current welcome or goodbye
+Commands to Delete or Manage Welcome Messages:
+
+To delete the welcome message (applies to goodbye messages as well):
+```markdown
+welcome delete
+```
+
+To disable or enable welcome messages (applies to goodbye messages as well):
+```markdown
+welcome off | on
+```
+
+The same commands can be used for managing goodbye messages as well. These commands allow you to control the behaviour of welcome and goodbye messages
