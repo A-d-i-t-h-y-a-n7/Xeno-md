@@ -35,13 +35,14 @@ For Example setvar key = value
 
 8. **[ANTILINK_MSG](#ANTILINK_MSG)** - Message sent when an antilink is detected.
    - ANTILINK_MSG = Antilink Detected &mention kicked
+   - ANTILINK_MSG = off
 
 9. **[ANTISPAM_MSG](#ANTISPAM_MSG)** - Message sent when antispam is detected.
    - ANTISPAM_MSG = Antispam Detected &mention kicked
-
+   - ANTISPAM_MSG = off
 10. **[ANTIWORDS_MSG](#ANTIWORDS_MSG)** - Message sent when antiword is detected.
     - ANTIWORDS_MSG = Antiword Detected &mention kicked
-
+    - ANTIWORDS_MSG = off
 11. **[ANTIWORDS](#ANTIWORDS)** - List of disallowed words. Example:
     - ANTIWORDS = word1, word2, word3
 
@@ -102,7 +103,7 @@ For Example setvar key = value
 
 27. **[ANTI_BOT_MESSAGE](#ANTI_BOT_MESSAGE)** - Send an informational message upon removal.
     - ANTI_BOT_MESSAGE = &mention removed
-
+    - ANTI_BOT_MESSAGE = off
 28. **[ANTI_DELETE](#ANTI_DELETE)** - Send deleted Message
     - ANTI_DELETE = off (off sending deleted message)
     - ANTI_DELETE = p (send deleted message to your or first sudo chat)
