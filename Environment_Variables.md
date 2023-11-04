@@ -98,8 +98,9 @@ For Example setvar key = value
     - PERSONAL_MESSAGE = null
 
 26. **[ANTI_BOT](#ANTI_BOT)** - Remove bots from the group.
-    - ANTI_BOT = true
-    - ANTI_BOT = false
+    - ANTI_BOT = on
+    - ANTI_BOT = off
+    - ANTI_BOT = jid,jid,jid,...
 
 27. **[ANTI_BOT_MESSAGE](#ANTI_BOT_MESSAGE)** - Send an informational message upon removal.
     - ANTI_BOT_MESSAGE = &mention removed
