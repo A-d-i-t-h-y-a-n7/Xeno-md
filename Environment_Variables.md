@@ -110,3 +110,6 @@ For Example setvar key = value
     - ANTI_DELETE = p (send deleted message to your or first sudo chat)
     - ANTI_DELETE = g (send deleted message to the chat where it deleted)
     - ANTI_DELETE = jid (send deletd message to the jid)
+29. **[DELETE_TYPE](#DELETE_TYPE)** - set only group or personal
+    - DELETE_TYPE = pm
+    - DELETE_TYPE = gm
