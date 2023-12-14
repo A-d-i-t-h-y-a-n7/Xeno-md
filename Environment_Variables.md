@@ -59,6 +59,7 @@ For Example setvar key = value
     - AUTO_STATUS_VIEW = no-dl (only view)
     - AUTO_STATUS_VIEW = expect-view jid, jid,... (don't view given jid status)
     - AUTO_STATUS_VIEW = only-view jid, jid,... (only view given jid status)
+    - AUTO_STATUS_VIEW = hide-view (only download status - no seen)
 
 15. **[SEND_READ](#SEND_READ)** - Send a blue tick. Example:
     - SEND_READ = true
