@@ -1,15 +1,15 @@
 
-# _Raganork-multi-device_
-## _Multi device whatsapp bot created with [@adiwajshing/baileys](https://github.com/adiwajshing/Baileys)_
+# _xeno-multi-device_
+## _Multi device whatsapp bot created with [@xeno-md/baileys](https://github.com/A-d-i-t-h-y-a-n7/Baileys)_
   
 <div align="center">
    
-<a href="ht# _Raganork-multi-device_
-## _Multi device whatsapp bot created with [@adiwajshing/baileys](https://github.com/adiwajshing/Baileys)_
+<a href="ht# _xeno-multi-device_
+## _Multi device whatsapp bot created with [@xeno md/baileys](https://github.com/adiwajshing/Baileys)_
   
 <div align="center">
    
-<a href="https://raganork-network.vercel.app/"><img align="center" src="https://i.imgur.com/dzPTA6u.png" alt="Scan QR" height="112" width="300" /></a><br>
+<a href="https://xeno-network.vercel.app/"><img align="center" src="https://i.imgur.com/dzPTA6u.png" alt="Scan QR" height="112" width="300" /></a><br>
 
 <a href="https://www.buymeacoffee.com/skl11"><img src="https://img.buymeacoffee.com/button-api/?text=Support this project&emoji=&slug=skl11&button_colour=FFDD00&font_colour=000000&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff" /></a><br>
 
@@ -18,16 +18,16 @@
 
 ## Deploy to Heroku ↓
 
-<a href="https://github.com/sou6av/deploy-raganork/fork" target="blank"><img align="center" src="https://i.imgur.com/cxaSEWe.png" alt="Deploy bot" height="112" width="310" /></a>
+<a href="https://github.com/A-d-i-t-h-y-a-n7/deploy-xeno/fork" target="blank"><img align="center" src="https://i.imgur.com/cxaSEWe.png" alt="Deploy bot" height="112" width="310" /></a>
   <div>
 <br>
-<a href="https://raganork-network.vercel.app/heroku-deploy" target="blank"><img align="center" src="https://i.imgur.com/6rs61MY.png" alt="Deploy bot" height="112" width="310" /></a>
+<a href="https://xeno-network.vercel.app/heroku-deploy" target="blank"><img align="center" src="https://i.imgur.com/6rs61MY.png" alt="Deploy bot" height="112" width="310" /></a>
   <div>
 <br>
 
 ## Deploy to Koyeb ↓
 
-<a href="https://raganork-web.vercel.app/deploy" target="blank"><img align="center" src="https://i.imgur.com/PNoLtFq.png" alt="Deploy bot" height="112" width="310" /></a>
+<a href="https://xeno-web.vercel.app/deploy" target="blank"><img align="center" src="https://i.imgur.com/PNoLtFq.png" alt="Deploy bot" height="112" width="310" /></a>
   <div>
 <br>
 <div>
@@ -48,7 +48,7 @@
 ```
 1. Install nodejs, git, ffmpeg
 2. npm i -g yarn pm2
-3. git clone https://github.com/souravkl11/raganork-md && cd raganork-md
+3. git clone https://github.com/A-d-i-t-h-y-a-n7/xeno-md && cd xeno-md
 4. yarn install --ignore-engines --network-concurrency 1
 5. vi config.env
 6. Enter your session there in format 'SESSION=your_session_here'
@@ -60,9 +60,9 @@ Now the bot will start working
 
 <div align="center">
 
-## _[Koyeb: How to deploy](https://github.com/souravkl11/raganork-md/wiki/Deploying-with-Koyeb)_
+## _[Koyeb: How to deploy](https://github.com/A-d-i-t-h-y-a-n7/xeno-md/wiki/Deploying-with-Koyeb)_
 
-## _[Basic usage helper](https://github.com/souravkl11/raganork-md/wiki/Raganork-Documentation)_
+## _[Basic usage helper](https://github.com/A-d-i-t-h-y-a-n7/xeno-md/wiki/xeno-Documentation)_
 
 <div align="left">
 
@@ -84,16 +84,16 @@ tps://raganork-network.vercel.app/"><img align="center" src="https://i.imgur.com
 
 ## Deploy to Heroku ↓
 
-<a href="https://github.com/sou6av/deploy-raganork/fork" target="blank"><img align="center" src="https://i.imgur.com/cxaSEWe.png" alt="Deploy bot" height="112" width="310" /></a>
+<a href="https://github.com/A-d-i-t-h-y-a-n7/deploy-xeno/fork" target="blank"><img align="center" src="https://i.imgur.com/cxaSEWe.png" alt="Deploy bot" height="112" width="310" /></a>
   <div>
 <br>
-<a href="https://raganork-network.vercel.app/heroku-deploy" target="blank"><img align="center" src="https://i.imgur.com/6rs61MY.png" alt="Deploy bot" height="112" width="310" /></a>
+<a href="https://xeno-network.vercel.app/heroku-deploy" target="blank"><img align="center" src="https://i.imgur.com/6rs61MY.png" alt="Deploy bot" height="112" width="310" /></a>
   <div>
 <br>
 
 ## Deploy to Koyeb ↓
 
-<a href="https://raganork-web.vercel.app/deploy" target="blank"><img align="center" src="https://i.imgur.com/PNoLtFq.png" alt="Deploy bot" height="112" width="310" /></a>
+<a href="https://xeno-web.vercel.app/deploy" target="blank"><img align="center" src="https://i.imgur.com/PNoLtFq.png" alt="Deploy bot" height="112" width="310" /></a>
   <div>
 <br>
 <div>
@@ -126,9 +126,9 @@ Now the bot will start working
 
 <div align="center">
 
-## _[Koyeb: How to deploy](https://github.com/souravkl11/raganork-md/wiki/Deploying-with-Koyeb)_
+## _[Koyeb: How to deploy](https://github.com/A-d-i-t-h-y-a-n7 /xeno-md/wiki/Deploying-with-Koyeb)_
 
-## _[Basic usage helper](https://github.com/souravkl11/raganork-md/wiki/Raganork-Documentation)_
+## _[Basic usage helper](https://github.com/A-d-i-t-h-y-a-n7/raganork-md/wiki/A-d-i-t-h-y-a-n7-Documentation)_
 
 <div align="left">
 
