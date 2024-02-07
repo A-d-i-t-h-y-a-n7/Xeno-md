@@ -1,119 +1,96 @@
-### Configuration Settings - Please Copy and Paste the Key and Enter the Desired Values. 
+#### HERMIT MD WHATSAPP BOT
+Hermit-md - Simple whatsapp Multi Device whatsapp bot.
 
-You can change it depending on platform settings or
-within bot using setvar command
+***
 
-For Example setvar key = value
+### SETUP
+
+1. Scan the QR and copy it
+    <br>
+<a href='https://hermit.adithyan.xyz/qr' target="_blank"><img alt='SCAN QR' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+
+#### DEPLOY TO HEROKU 
+
+1. If You don't have a account in Heroku. Create a account.
+    <br>
+<a href='https://signup.heroku.com/' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+
+3. Now Deploy
+    <br>
+<a href='https://hermit.adithyan.xyz/deploy-heroku' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+
+#### DEPLOY TO KOYEB 
+
+1. If You don't have a account in koyeb. Create a account.
+    <br>
+<a href='https://app.koyeb.com/auth/signup' target="_blank"><img alt='koyeb' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=koyeb&logoColor=white'/></a>
+
+3. Get [DATABASE_URL](https://github.com/A-d-i-t-h-y-a-n/hermit-md/wiki/DATABASE_URL) and copy it
+
+4. Get [Koyeb api key](https://app.koyeb.com/account/api)
+
+2. Now Deploy
+    <br>
+<a href='https://hermit.adithyan.xyz/deploy-koyeb' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=koyeb&logoColor=white'/></a>
+
+#### DEPLOY TO RAILWAY
+
+1. If You don't have a account in railway. Create a account.
+    <br>
+<a href='https://railway.app/login' target="_blank"><img alt='railway' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=railway&logoColor=white'/></a>
+
+2. Now Deploy
+    <br>
+<a href='https://railway.app/template/q20OfH?referralCode=b9IKyc' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=railway&logoColor=white'/></a>
+
+#### RUN ON VPS/UBUNTU/WINDOWS
+
+1. Install NodeJs,ffmpeg
+2. Installation
+   ```
+   $ npm i -global pm2
+   $ git clone https://github.com/A-d-i-t-h-y-a-n/hermit-md.git
+   $ cd hermit-md
+   $ npm install
+   ```
+3. Configuration
+   ```
+   $ echo "VPS = true
+     SESSION_ID = null
+     AUTH_FILE = session
+     SUDO = null
+     PREFIX = .
+     MODE = private
+     LOG_MSG = true" > config.env
+   ```
+- Start
+  ```
+  $ npm start
+  ```
+- Stop
+  ```
+  $ pm2 delete hermit-md
+  ```
+<br>
+
+For help visit [Github wiki](https://github.com/A-d-i-t-h-y-a-n/hermit-md/wiki)
+
+***
+<a href="https://whatsapp.com/channel/0029Va4OxFAGk1FjrFvTJa1V"><img alt="WhatsApp" src="https://img.shields.io/badge/-Whatsapp%20Channel-white?style=for-the-badge&logo=whatsapp&logoColor=black"/></a>
+
+## Support Me
+
+If you find this project helpful and would like to support my efforts, you can show your appreciation in three ways:
+
+1. **Buy Me a Coffee**: Your support will help me stay motivated and continue working on exciting projects like this one.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.buymeacoffee.com/adithyanr">
+  <img src="https://i.ibb.co/KNnhcvX/bmc-button.png" alt="Buy Me Coffee" height="40" width="150" style="margin-left: 60px;">
+</a>
 
 
-1. **[SESSION_ID](#SESSION_ID)** - Obtain this after a successful scan.
+2. **Donate USDT (Tether) Crypto**: You can also support me by donating crypto directly to my USDT wallet. Your contribution will go a long way in helping me improve and maintain this project.
 
-2. **[SUDO](#SUDO)** - Your primary number or another number to use with the bot. Example:
-   - SUDO = 987654321, 911234567890
+   Crypto Wallet Address: `0x816a82f51b45e97ffeff60e177ae79f5ae971efb`
 
-3. **[PREFIX](#PREFIX)** - Your preferred command prefix. Example:
-   - PREFIX = !
-   - PREFIX = bot
-   - PREFIX = ^[.,!]
-   - PREFIX = null
-
-4. **[VPS](#VPS)** - Set it to true if using a local or virtual system. Example:
-   - VPS = true
-   - VPS = false
-
-5. **[STICKER_PACKNAME](#STICKER_PACKNAME)** - Sticker pack name. Example:
-   - STICKER_PACKNAME = Name, Author
-   - STICKER_PACKNAME = Name
-   - STICKER_PACKNAME = , Author
-   - STICKER_PACKNAME = false
-
-6. **[WARN_LIMIT](#WARN_LIMIT)** - Number of allowed warnings. Example:
-   - WARN_LIMIT = 3
-
-7. **[DIS_BOT](#DIS_BOT)** - Block bots. Example:
-   - DIS_BOT = 5375039464603@g.us, 91987654321
-
-8. **[ANTILINK_MSG](#ANTILINK_MSG)** - Message sent when an antilink is detected.
-   - ANTILINK_MSG = Antilink Detected &mention kicked
-   - ANTILINK_MSG = off
-
-9. **[ANTISPAM_MSG](#ANTISPAM_MSG)** - Message sent when antispam is detected.
-   - ANTISPAM_MSG = Antispam Detected &mention kicked
-   - ANTISPAM_MSG = off
-10. **[ANTIWORDS_MSG](#ANTIWORDS_MSG)** - Message sent when antiword is detected.
-    - ANTIWORDS_MSG = Antiword Detected &mention kicked
-    - ANTIWORDS_MSG = off
-11. **[ANTIWORDS](#ANTIWORDS)** - List of disallowed words. Example:
-    - ANTIWORDS = word1, word2, word3
-
-12. **[SS_TOKEN](#SS_TOKEN)** - Token for SS API from [https://app.screenshotapi.net/dashboard](https://app.screenshotapi.net/dashboard). Example:
-    - SS_TOKEN = token_from_api
-
-13. **[REJECT_CALL](#REJECT_CALL)** - Automatically reject calls. Example:
-    - REJECT_CALL = true
-    - REJECT_CALL = false
-
-14. **[AUTO_STATUS_VIEW](#AUTO_STATUS_VIEW)** - Automatically view status. Example:
-    - AUTO_STATUS_VIEW = true (view all)
-    - AUTO_STATUS_VIEW = false (off)
-    - AUTO_STATUS_VIEW = no-dl (only view)
-    - AUTO_STATUS_VIEW = expect-view jid, jid,... (don't view given jid status)
-    - AUTO_STATUS_VIEW = only-view jid, jid,... (only view given jid status)
-    - AUTO_STATUS_VIEW = hide-view (only download status - no seen)
-
-15. **[SEND_READ](#SEND_READ)** - Send a blue tick. Example:
-    - SEND_READ = true
-    - SEND_READ = false
-
-16. **[BRAINSHOP](#BRAINSHOP)** - Lydia API key. Example from [https://brainshop.ai/](https://brainshop.ai/):
-    - BRAINSHOP = 159501, 6pq8dPiYt7PdqHz3
-
-17. **[RMBG_KEY](#RMBG_KEY)** - remove.bg API key. Example:
-    - RMBG_KEY = key_from_api
-
-18. **[MAX_UPLOAD](#MAX_UPLOAD)** - Maximum file size (in MB) that the bot can upload.
-    - MAX_UPLOAD = 230
-
-19. **[DATABASE_URL](#DATABASE_URL)** - Obtain it from [HERE](https://github.com/lyfe00011/whatsapp-bot-md/wiki/DATABASE_URL) or leave it empty, depending on the platform.
-
-20. **[PORT](#PORT)** - Port for the server.
-    - PORT = 3000
-
-21. **[FORCE_LOGOUT](#FORCE_LOGOUT)** - Force logout from WhatsApp web. Change back to false after logout.
-    - FORCE_LOGOUT = true
-
-22. **[AJOIN](#AJOIN)** - Accept group join requests (Group Privacy).
-    - AJOIN = true
-    - AJOIN = false
-
-23. **[APPROVE](#APPROVE)** - Set antifake (based on this, approve, reject, or do both).
-    - APPROVE = reject
-    - APPROVE = approve
-    - APPROVE = all
-
-24. **[TZ](#TZ)** - Timezone.
-    - TZ = Asia/Kolkata
-
-25. **[PERSONAL_MESSAGE](#PERSONAL_MESSAGE)** - Send a greeting on the first personal message.
-    - PERSONAL_MESSAGE = This is a bot; my owner will message you back when online
-    - PERSONAL_MESSAGE = null
-
-26. **[ANTI_BOT](#ANTI_BOT)** - Remove bots from the group.
-    - ANTI_BOT = on
-    - ANTI_BOT = off
-    - ANTI_BOT = jid,jid,jid,...
-
-27. **[ANTI_BOT_MESSAGE](#ANTI_BOT_MESSAGE)** - Send an informational message upon removal.
-    - ANTI_BOT_MESSAGE = &mention removed
-    - ANTI_BOT_MESSAGE = off
-28. **[ANTI_DELETE](#ANTI_DELETE)** - Send deleted Message
-    - ANTI_DELETE = off (off sending deleted message)
-    - ANTI_DELETE = p (send deleted message to your or first sudo chat)
-    - ANTI_DELETE = g (send deleted message to the chat where it deleted)
-    - ANTI_DELETE = jid (send deletd message to the jid)
-29. **[DELETE_TYPE](#DELETE_TYPE)** - set anti delete only send group or personal message
-    - DELETE_TYPE = pm
-    - DELETE_TYPE = gm
-30. **[LIST_TYPE](#LIST_TYPE)** - set select list type poll or text Message
-    - LIST_TYPE = poll
-    - LIST_TYPE = text
+Your generosity is greatly appreciated!
