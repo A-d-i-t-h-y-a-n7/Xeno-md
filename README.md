@@ -1,143 +1,96 @@
+#### XENO MD WHATSAPP BOT
+xeno-md - Simple whatsapp Multi Device whatsapp bot.
 
-# _xeno-multi-device_
-## _Multi device whatsapp bot created with [@xeno-md/baileys](https://github.com/A-d-i-t-h-y-a-n7/Baileys)_
-  
-<div align="center">
-   
-<a href="ht# _xeno-multi-device_
-## _Multi device whatsapp bot created with [@xeno md/baileys](https://github.com/adiwajshing/Baileys)_
-  
-<div align="center">
-   
-<a href="https://xeno-network.vercel.app/"><img align="center" src="https://i.imgur.com/dzPTA6u.png" alt="Scan QR" height="112" width="300" /></a><br>
+***
 
-<a href="https://www.buymeacoffee.com/skl11"><img src="https://img.buymeacoffee.com/button-api/?text=Support this project&emoji=&slug=skl11&button_colour=FFDD00&font_colour=000000&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff" /></a><br>
+### SETUP
 
-<div>
+1. Scan the QR and copy it
+    <br>
+<a href='https://hermit.xeno md.xyz/qr' target="_blank"><img alt='SCAN QR' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+
+#### DEPLOY TO HEROKU 
+
+1. If You don't have a account in Heroku. Create a account.
+    <br>
+<a href='https://signup.heroku.com/' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+
+3. Now Deploy
+    <br>
+<a href='https://hermit.adithyan.xyz/deploy-heroku' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+
+#### DEPLOY TO KOYEB 
+
+1. If You don't have a account in koyeb. Create a account.
+    <br>
+<a href='https://app.koyeb.com/auth/signup' target="_blank"><img alt='koyeb' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=koyeb&logoColor=white'/></a>
+
+3. Get [DATABASE_URL](https://github.com/A-d-i-t-h-y-a-n/hermit-md/wiki/DATABASE_URL) and copy it
+
+4. Get [Koyeb api key](https://app.koyeb.com/account/api)
+
+2. Now Deploy
+    <br>
+<a href='https://hermit.adithyan.xyz/deploy-koyeb' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=koyeb&logoColor=white'/></a>
+
+#### DEPLOY TO RAILWAY
+
+1. If You don't have a account in railway. Create a account.
+    <br>
+<a href='https://railway.app/login' target="_blank"><img alt='railway' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=railway&logoColor=white'/></a>
+
+2. Now Deploy
+    <br>
+<a href='https://railway.app/template/q20OfH?referralCode=b9IKyc' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=railway&logoColor=white'/></a>
+
+#### RUN ON VPS/UBUNTU/WINDOWS
+
+1. Install NodeJs,ffmpeg
+2. Installation
+   ```
+   $ npm i -global pm2
+   $ git clone https://github.com/A-d-i-t-h-y-a-n/hermit-md.git
+   $ cd hermit-md
+   $ npm install
+   ```
+3. Configuration
+   ```
+   $ echo "VPS = true
+     SESSION_ID = null
+     AUTH_FILE = session
+     SUDO = null
+     PREFIX = .
+     MODE = private
+     LOG_MSG = true" > config.env
+   ```
+- Start
+  ```
+  $ npm start
+  ```
+- Stop
+  ```
+  $ pm2 delete hermit-md
+  ```
 <br>
 
-## Deploy to Heroku ↓
+For help visit [Github wiki](https://github.com/A-d-i-t-h-y-a-n/hermit-md/wiki)
 
-<a href="https://github.com/A-d-i-t-h-y-a-n7/deploy-xeno/fork" target="blank"><img align="center" src="https://i.imgur.com/cxaSEWe.png" alt="Deploy bot" height="112" width="310" /></a>
-  <div>
-<br>
-<a href="https://xeno-network.vercel.app/heroku-deploy" target="blank"><img align="center" src="https://i.imgur.com/6rs61MY.png" alt="Deploy bot" height="112" width="310" /></a>
-  <div>
-<br>
+***
+<a href="https://whatsapp.com/channel/0029Va4OxFAGk1FjrFvTJa1V"><img alt="WhatsApp" src="https://img.shields.io/badge/-Whatsapp%20Channel-white?style=for-the-badge&logo=whatsapp&logoColor=black"/></a>
 
-## Deploy to Koyeb ↓
+## Support Me
 
-<a href="https://xeno-web.vercel.app/deploy" target="blank"><img align="center" src="https://i.imgur.com/PNoLtFq.png" alt="Deploy bot" height="112" width="310" /></a>
-  <div>
-<br>
-<div>
-  <br>
+If you find this project helpful and would like to support my efforts, you can show your appreciation in three ways:
+
+1. **Buy Me a Coffee**: Your support will help me stay motivated and continue working on exciting projects like this one.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.buymeacoffee.com/adithyanr">
+  <img src="https://i.ibb.co/KNnhcvX/bmc-button.png" alt="Buy Me Coffee" height="40" width="150" style="margin-left: 60px;">
+</a>
 
 
-## Deploy to Railway ↓
-#### (No setvar command, must set vars manually from settings)
-<a href="https://railway.app/template/Mt-g4a" target="blank"><img align="center" src="https://railway.app/button.svg" alt="Deploy bot" height="" width="" /></a>
-  <div>
-<br>
-<div>
-  <br>
+2. **Donate USDT (Tether) Crypto**: You can also support me by donating crypto directly to my USDT wallet. Your contribution will go a long way in helping me improve and maintain this project.
 
-## Deploy in VPS [linux] ↓
-<div align="left">
+   Crypto Wallet Address: `0x816a82f51b45e97ffeff60e177ae79f5ae971efb`
 
-```
-1. Install nodejs, git, ffmpeg
-2. npm i -g yarn pm2
-3. git clone https://github.com/A-d-i-t-h-y-a-n7/xeno-md && cd xeno-md
-4. yarn install --ignore-engines --network-concurrency 1
-5. vi config.env
-6. Enter your session there in format 'SESSION=your_session_here'
-7. Press ctrl+c, then type ':wq' and press enter
-8. npm start
-
-Now the bot will start working
-```
-
-<div align="center">
-
-## _[Koyeb: How to deploy](https://github.com/A-d-i-t-h-y-a-n7/xeno-md/wiki/Deploying-with-Koyeb)_
-
-## _[Basic usage helper](https://github.com/A-d-i-t-h-y-a-n7/xeno-md/wiki/xeno-Documentation)_
-
-<div align="left">
-
-# Note
-
-I can't guarantee or can be held responsible if you get blocked or banned by using this software. WhatsApp does not allow bots using unofficial methods on their platform, so this shouldn't be considered totally safe. 
-
-# Legal
-
--   This code is in no way affiliated, authorized, maintained, sponsored or endorsed by WA (WhatsApp) or any of its affiliates or subsidiaries.
--   The official WhatsApp website can be found at https://whatsapp.com. "WhatsApp" as well as related names, marks, emblems and images are registered trademarks of their respective owners.
--   This is an independent and unofficial software Use at your own risk.
-tps://raganork-network.vercel.app/"><img align="center" src="https://i.imgur.com/dzPTA6u.png" alt="Scan QR" height="112" width="300" /></a><br>
-
-<a href="https://www.buymeacoffee.com/skl11"><img src="https://img.buymeacoffee.com/button-api/?text=Support this project&emoji=&slug=skl11&button_colour=FFDD00&font_colour=000000&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff" /></a><br>
-
-<div>
-<br>
-
-## Deploy to Heroku ↓
-
-<a href="https://github.com/A-d-i-t-h-y-a-n7/deploy-xeno/fork" target="blank"><img align="center" src="https://i.imgur.com/cxaSEWe.png" alt="Deploy bot" height="112" width="310" /></a>
-  <div>
-<br>
-<a href="https://xeno-network.vercel.app/heroku-deploy" target="blank"><img align="center" src="https://i.imgur.com/6rs61MY.png" alt="Deploy bot" height="112" width="310" /></a>
-  <div>
-<br>
-
-## Deploy to Koyeb ↓
-
-<a href="https://xeno-web.vercel.app/deploy" target="blank"><img align="center" src="https://i.imgur.com/PNoLtFq.png" alt="Deploy bot" height="112" width="310" /></a>
-  <div>
-<br>
-<div>
-  <br>
-
-
-## Deploy to Railway ↓
-#### (No setvar command, must set vars manually from settings)
-<a href="https://railway.app/template/Mt-g4a" target="blank"><img align="center" src="https://railway.app/button.svg" alt="Deploy bot" height="" width="" /></a>
-  <div>
-<br>
-<div>
-  <br>
-
-## Deploy in VPS [linux] ↓
-<div align="left">
-
-```
-1. Install nodejs, git, ffmpeg
-2. npm i -g yarn pm2
-3. git clone https://github.com/souravkl11/raganork-md && cd raganork-md
-4. yarn install --ignore-engines --network-concurrency 1
-5. vi config.env
-6. Enter your session there in format 'SESSION=your_session_here'
-7. Press ctrl+c, then type ':wq' and press enter
-8. npm start
-
-Now the bot will start working
-```
-
-<div align="center">
-
-## _[Koyeb: How to deploy](https://github.com/A-d-i-t-h-y-a-n7 /xeno-md/wiki/Deploying-with-Koyeb)_
-
-## _[Basic usage helper](https://github.com/A-d-i-t-h-y-a-n7/raganork-md/wiki/A-d-i-t-h-y-a-n7-Documentation)_
-
-<div align="left">
-
-# Note
-
-I can't guarantee or can be held responsible if you get blocked or banned by using this software. WhatsApp does not allow bots using unofficial methods on their platform, so this shouldn't be considered totally safe. 
-
-# Legal
-
--   This code is in no way affiliated, authorized, maintained, sponsored or endorsed by WA (WhatsApp) or any of its affiliates or subsidiaries.
--   The official WhatsApp website can be found at https://whatsapp.com. "WhatsApp" as well as related names, marks, emblems and images are registered trademarks of their respective owners.
--   This is an independent and unofficial software Use at your own risk.
+Your generosity is greatly appreciated!
